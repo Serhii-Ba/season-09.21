@@ -1,0 +1,18 @@
+span {
+    font-size: 40px;
+}
+strong {
+    color: green ;
+    font-style: italic ;
+}
+.test {
+    border: 1px solid brown !important;
+}
+
+.test2 {
+    border: 1px solid blue;
+    /*border-bottom: 1px solid blue;*/
+}
+#hello-world-2 {
+    color: blueviolet;
+}

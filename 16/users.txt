@@ -1,0 +1,3 @@
+Alex;10;Male
+Ivanka;16;Female
+John;17;Male
