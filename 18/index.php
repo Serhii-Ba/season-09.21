@@ -8,12 +8,6 @@ interface Sizable {
 
 }
 
-
-
-
-
-
-
 interface FigureInterface {
 
     public function __construct();
