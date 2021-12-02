@@ -4,6 +4,7 @@
     <list default="true" id="5fbbf5df-76f1-4522-bdee-c6fadc3c1dd0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/13f1fb4c-7047-4207-8034-1a904c30206f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/13f1fb4c-7047-4207-8034-1a904c30206f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/22/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/22/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,19 +52,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/22/index.php">
+        <entry file="file://$PROJECT_DIR$/23/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://13f1fb4c-7047-4207-8034-1a904c30206f/schema/season0921/table/user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+            <state relative-caret-position="613">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -118,6 +110,7 @@
         <option value="$PROJECT_DIR$/21/index.sql" />
         <option value="$PROJECT_DIR$/22/constant.php" />
         <option value="$PROJECT_DIR$/22/index.php" />
+        <option value="$PROJECT_DIR$/23/index.php" />
       </list>
     </option>
   </component>
@@ -168,16 +161,16 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/19/libs" />
-      <recent name="$PROJECT_DIR$/19/burmistrov/lesson19" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/23" />
       <recent name="$PROJECT_DIR$/19/burmistrov/lesson19" />
       <recent name="$PROJECT_DIR$/16" />
       <recent name="$PROJECT_DIR$/01.11.2021/1" />
       <recent name="$PROJECT_DIR$/01.11.2021" />
-      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/19/libs" />
+      <recent name="$PROJECT_DIR$/19/burmistrov/lesson19" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -212,7 +205,7 @@
       <workItem from="1637774583218" duration="1061000" />
       <workItem from="1637924135775" duration="556000" />
       <workItem from="1638204000672" duration="4157000" />
-      <workItem from="1638377344993" duration="3481000" />
+      <workItem from="1638377344993" duration="6342000" />
     </task>
     <task id="LOCAL-00001" summary="первый коммит&#10;первая фиксация&#10;first commit">
       <created>1635788507209</created>
@@ -246,13 +239,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41347000" />
+    <option name="totallyTimeSpent" value="44208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1792" height="1010" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15142857" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15142857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -265,13 +258,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.20504385" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2138158" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.37938598" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.24780701" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.14228572" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.22457142" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +317,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="попробовал добавить лишние строки" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson14.php" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -627,8 +619,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/22/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        <state relative-caret-position="691">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/23/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
         </state>
       </provider>
     </entry>

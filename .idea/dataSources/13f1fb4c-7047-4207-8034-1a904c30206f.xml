@@ -43,7 +43,7 @@
     </schema>
     <schema id="13" parent="1" name="season0921">
       <Visible>1</Visible>
-      <Collation>utf8mb4_0900_ai_ci</Collation>
+      <Collation>utf8_general_ci</Collation>
     </schema>
     <schema id="14" parent="1" name="sys">
       <Collation>utf8mb4_0900_ai_ci</Collation>
@@ -1145,40 +1145,160 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="290" parent="13" name="user">
-      <Comment>my first table</Comment>
-    </table>
-    <column id="291" parent="290" name="id">
+    <table id="290" parent="13" name="category"/>
+    <table id="291" parent="13" name="passport"/>
+    <table id="292" parent="13" name="product"/>
+    <table id="293" parent="13" name="user"/>
+    <table id="294" parent="13" name="user_has_product"/>
+    <column id="295" parent="290" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="292" parent="290" name="name">
+    <column id="296" parent="290" name="name">
       <Position>2</Position>
-      <DataType>varchar(100)|0s</DataType>
+      <DataType>varchar(45)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="293" parent="290" name="age">
-      <Position>3</Position>
-      <DataType>int|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="294" parent="290" name="sex">
-      <Position>4</Position>
-      <DataType>varchar(10)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="295" parent="290" name="test">
-      <Position>5</Position>
-      <DataType>int|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="296" parent="290" name="PRIMARY">
+    <key id="297" parent="290" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
+    <column id="298" parent="291" name="user_id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="299" parent="291" name="serial">
+      <Position>2</Position>
+      <DataType>varchar(45)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="300" parent="291" name="number">
+      <Position>3</Position>
+      <DataType>varchar(45)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="301" parent="291" name="fk_passport_user1_idx">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="302" parent="291" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="303" parent="291" name="fk_passport_user1">
+      <ColNames>user_id</ColNames>
+      <RefSchemaName>season0921</RefSchemaName>
+      <RefTableName>user</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="304" parent="292" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="305" parent="292" name="name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="306" parent="292" name="description">
+      <Position>3</Position>
+      <DataType>varchar(45)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="307" parent="292" name="price">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="308" parent="292" name="category_id">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="309" parent="292" name="relation_category_product_idx">
+      <ColNames>category_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="310" parent="292" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="311" parent="292" name="relation_category_product">
+      <ColNames>category_id</ColNames>
+      <RefSchemaName>season0921</RefSchemaName>
+      <RefTableName>category</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="312" parent="293" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="313" parent="293" name="name">
+      <Position>2</Position>
+      <DataType>varchar(45)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="314" parent="293" name="age">
+      <Position>3</Position>
+      <DataType>varchar(45)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="315" parent="293" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="316" parent="294" name="user_id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="317" parent="294" name="product_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="318" parent="294" name="fk_user_has_product_user1_idx">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="319" parent="294" name="fk_user_has_product_product1_idx">
+      <ColNames>product_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="320" parent="294" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_id
+product_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="321" parent="294" name="fk_user_has_product_user1">
+      <ColNames>user_id</ColNames>
+      <RefSchemaName>season0921</RefSchemaName>
+      <RefTableName>user</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="322" parent="294" name="fk_user_has_product_product1">
+      <ColNames>product_id</ColNames>
+      <RefSchemaName>season0921</RefSchemaName>
+      <RefTableName>product</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
   </database-model>
 </dataSource>
