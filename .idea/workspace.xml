@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5fbbf5df-76f1-4522-bdee-c6fadc3c1dd0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_15.11.20221/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/_15.11.2021/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_15.11.20221/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/_15.11.2021/post.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,21 +41,30 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_07.12.2021/index.php">
+        <entry file="file://$PROJECT_DIR$/25/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="275">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/25/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/13f1fb4c-7047-4207-8034-1a904c30206f/console.sql">
+        <entry file="file://$PROJECT_DIR$/25/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="465">
+              <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -125,8 +132,11 @@
         <option value="$PROJECT_DIR$/24/session/session.php" />
         <option value="$PROJECT_DIR$/24/session/test1.php" />
         <option value="$PROJECT_DIR$/24/session/test2.php" />
-        <option value="$PROJECT_DIR$/_07.12.2021/index.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/13f1fb4c-7047-4207-8034-1a904c30206f/console.sql" />
+        <option value="$PROJECT_DIR$/_07.12.2021/index.php" />
+        <option value="$PROJECT_DIR$/25/index.html" />
+        <option value="$PROJECT_DIR$/25/main.js" />
+        <option value="$PROJECT_DIR$/25/test.php" />
       </list>
     </option>
   </component>
@@ -149,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,19 +170,24 @@
             <path>
               <item name="season-09.21" type="b2602c69:ProjectViewProjectNode" />
               <item name="season-09.21" type="462c0819:PsiDirectoryNode" />
+              <item name="25" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="season-09.21" type="b2602c69:ProjectViewProjectNode" />
+              <item name="season-09.21" type="462c0819:PsiDirectoryNode" />
               <item name="_07.12.2021" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/yandex/Projects/season-09.21/_07.12.2021/index.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -224,7 +240,8 @@
       <workItem from="1637924135775" duration="556000" />
       <workItem from="1638204000672" duration="4157000" />
       <workItem from="1638377344993" duration="7275000" />
-      <workItem from="1638809687910" duration="6376000" />
+      <workItem from="1638809687910" duration="7021000" />
+      <workItem from="1638983710731" duration="3498000" />
     </task>
     <task id="LOCAL-00001" summary="первый коммит&#10;первая фиксация&#10;first commit">
       <created>1635788507209</created>
@@ -258,13 +275,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51517000" />
+    <option name="totallyTimeSpent" value="55660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1792" height="1010" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15314285" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15485714" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -277,13 +294,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.20504385" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="12" visible="true" weight="0.24780701" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.24780701" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.22457142" />
+      <window_info anchor="right" id="Database" order="3" weight="0.22457142" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,27 +363,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_01.11.2021/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/14/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7/1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/16/users.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -648,13 +644,6 @@
     <entry file="file://$PROJECT_DIR$/_07.12.2021/test.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_07.12.2021/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../season0921.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -664,8 +653,36 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/13f1fb4c-7047-4207-8034-1a904c30206f/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="261">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_07.12.2021/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/25/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/25/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/25/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
         </state>
       </provider>
     </entry>
