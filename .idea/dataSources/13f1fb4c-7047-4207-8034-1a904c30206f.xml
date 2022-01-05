@@ -1257,44 +1257,49 @@
       <DataType>varchar(45)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="315" parent="293" name="PRIMARY">
+    <column id="315" parent="293" name="password">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="316" parent="293" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="316" parent="294" name="user_id">
+    <column id="317" parent="294" name="user_id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="317" parent="294" name="product_id">
+    <column id="318" parent="294" name="product_id">
       <Position>2</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="318" parent="294" name="fk_user_has_product_user1_idx">
+    <index id="319" parent="294" name="fk_user_has_product_user1_idx">
       <ColNames>user_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="319" parent="294" name="fk_user_has_product_product1_idx">
+    <index id="320" parent="294" name="fk_user_has_product_product1_idx">
       <ColNames>product_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="320" parent="294" name="PRIMARY">
+    <key id="321" parent="294" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>user_id
 product_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="321" parent="294" name="fk_user_has_product_user1">
+    <foreign-key id="322" parent="294" name="fk_user_has_product_user1">
       <ColNames>user_id</ColNames>
       <RefSchemaName>season0921</RefSchemaName>
       <RefTableName>user</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="322" parent="294" name="fk_user_has_product_product1">
+    <foreign-key id="323" parent="294" name="fk_user_has_product_product1">
       <ColNames>product_id</ColNames>
       <RefSchemaName>season0921</RefSchemaName>
       <RefTableName>product</RefTableName>
